@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Cheat_Sheet_CSS</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Cheat Sheet CSS</h1>
+  <table>
+    <thead>
+      <tr><th>Sélecteur</th><th>Description</th></tr>
+    </thead>
+    <tbody>
+
+      <!-- Sélecteurs CSS -->
+      <tr class="category"><td colspan="2">Sélecteurs CSS</td></tr>
+      <tr><td><code>.classe</code></td><td>Sélecteur de classe</td></tr>
+      <tr><td><code>#id</code></td><td>Sélecteur d'identifiant</td></tr>
+      <tr><td><code>element</code></td><td>Sélecteur de type</td></tr>
+      <tr><td><code>element1 element2</code></td><td>Sélecteur descendant</td></tr>
+      <tr><td><code>element > child</code></td><td>Enfant direct</td></tr>
+      <tr><td><code>element + next</code></td><td>Frère suivant</td></tr>
+
+      <!-- Texte -->
+      <tr class="category"><td colspan="2">Texte & Typographie</td></tr>
+      <tr><td><code>color</code></td><td>Couleur du texte</td></tr>
+      <tr><td><code>font-size</code></td><td>Taille de police</td></tr>
+      <tr><td><code>font-family</code></td><td>Police de caractères</td></tr>
+      <tr><td><code>font-weight</code></td><td>Épaisseur : normal, bold</td></tr>
+      <tr><td><code>line-height</code></td><td>Hauteur de ligne</td></tr>
+      <tr><td><code>text-align</code></td><td>Alignement : left, center…</td></tr>
+      <tr><td><code>text-decoration</code></td><td>Ex : underline, none</td></tr>
+
+      <!-- Couleurs & arrière-plan -->
+      <tr class="category"><td colspan="2">Couleurs & Fonds</td></tr>
+      <tr><td><code>background-color</code></td><td>Couleur de fond</td></tr>
+      <tr><td><code>background-image</code></td><td>Image de fond</td></tr>
+      <tr><td><code>opacity</code></td><td>Transparence (0 à 1)</td></tr>
+      <tr><td><code>box-shadow</code></td><td>Ombre portée</td></tr>
+
+      <!-- Box model -->
+      <tr class="category"><td colspan="2">Box Model</td></tr>
+      <tr><td><code>margin</code></td><td>Marge externe</td></tr>
+      <tr><td><code>padding</code></td><td>Marge interne</td></tr>
+      <tr><td><code>border</code></td><td>Bordure</td></tr>
+      <tr><td><code>width</code></td><td>Largeur</td></tr>
+      <tr><td><code>height</code></td><td>Hauteur</td></tr>
+      <tr><td><code>box-sizing</code></td><td>border-box / content-box</td></tr>
+
+      <!-- Flexbox -->
+      <tr class="category"><td colspan="2">Mise en page : Flexbox</td></tr>
+      <tr><td><code>display: flex</code></td><td>Conteneur flexible</td></tr>
+      <tr><td><code>flex-direction</code></td><td>row / column</td></tr>
+      <tr><td><code>justify-content</code></td><td>Alignement horizontal</td></tr>
+      <tr><td><code>align-items</code></td><td>Alignement vertical</td></tr>
+      <tr><td><code>gap</code></td><td>Espacement entre éléments</td></tr>
+
+      <!-- Grid -->
+      <tr class="category"><td colspan="2">Mise en page : Grid</td></tr>
+      <tr><td><code>display: grid</code></td><td>Activer la grille</td></tr>
+      <tr><td><code>grid-template-columns</code></td><td>Colonnes définies</td></tr>
+      <tr><td><code>grid-template-rows</code></td><td>Lignes définies</td></tr>
+      <tr><td><code>gap</code></td><td>Espacement grille</td></tr>
+      <tr><td><code>grid-column / grid-row</code></td><td>Positionnement d’un item</td></tr>
+
+      <!-- Positionnement -->
+      <tr class="category"><td colspan="2">Positionnement</td></tr>
+      <tr><td><code>position</code></td><td>static, relative, absolute…</td></tr>
+      <tr><td><code>top / right / bottom / left</code></td><td>Décalage</td></tr>
+      <tr><td><code>z-index</code></td><td>Profondeur d’affichage</td></tr>
+
+      <!-- Transitions / animations -->
+      <tr class="category"><td colspan="2">Transitions & Animations</td></tr>
+      <tr><td><code>transition</code></td><td>Ex : <code>all 0.3s ease</code></td></tr>
+      <tr><td><code>@keyframes</code></td><td>Animation personnalisée</td></tr>
+      <tr><td><code>animation</code></td><td>Déclenchement d'animation</td></tr>
+
+      <!-- Responsive -->
+      <tr class="category"><td colspan="2">Responsive & Media Queries</td></tr>
+      <tr><td><code>@media</code></td><td>Conditionnelle selon l'écran</td></tr>
+      <tr><td><code>max-width</code></td><td>Largeur maximale</td></tr>
+      <tr><td><code>min-width</code></td><td>Largeur minimale</td></tr>
+
+      <!-- Unités -->
+      <tr class="category"><td colspan="2">Unités utiles</td></tr>
+      <tr><td><code>px</code></td><td>Pixels (fixe)</td></tr>
+      <tr><td><code>%</code></td><td>Pourcentage (relative)</td></tr>
+      <tr><td><code>em</code>, <code>rem</code></td><td>Relative à la police</td></tr>
+      <tr><td><code>vw</code>, <code>vh</code></td><td>Viewport width / height</td></tr>
+
+      <!-- Pseudo-éléments -->
+      <tr class="category"><td colspan="2">Pseudo-classes & Pseudo-éléments</td></tr>
+      <tr><td><code>:hover</code></td><td>Survol de l’élément</td></tr>
+      <tr><td><code>:focus</code></td><td>Focus clavier</td></tr>
+      <tr><td><code>::before / ::after</code></td><td>Ajout de contenu</td></tr>
+
+    </tbody>
+  </table>
+</body>
+</html>
